@@ -10,7 +10,7 @@ import re
 import os
 import concurrent.futures
 
-TOKEN = '' # input the stupid token here.
+TOKEN = os.getenv '' # input the stupid token here.
 
 intents = discord.Intents.all()
 intents.messages = True
